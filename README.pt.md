@@ -8,32 +8,25 @@ Este projeto automatiza a organização de arquivos e pastas com base nos dados 
 ✅ Copia os arquivos das pastas encontradas para um diretório de destino, estruturando-os com base em mês e ano.
 ✅ Gera relatórios (.txt) listando os clientes transferidos e aqueles cuja pasta não foi encontrada.
 
-📦 Tecnologias Utilizadas
+# 📦 Tecnologias Utilizadas
 Python 🐍
 
 Pandas 📊 (para manipulação de planilhas Excel)
 
 OS & Shutil 📂 (para manipulação de arquivos e diretórios)
 
-⚙️ Como Usar
+# ⚙️ Como Usar
 1️⃣ Baixe ou clone o repositório:
 
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+
 2️⃣ Instale as dependências necessárias:
 
-bash
-Copiar
-Editar
 pip install pandas openpyxl
+
 3️⃣ Execute o script e siga as instruções:
 
-bash
-Copiar
-Editar
 python organizador.py
 4️⃣ Insira os dados solicitados:
 
@@ -43,11 +36,11 @@ Colunas que contêm o número do cliente e a condição desejada
 
 Diretórios de origem e destino
 
-Mês e ano no formato MMAAAA (exemplo: 022024 para fevereiro de 2024)
+Diretorio que será salvo com os arquivos (Em meu caso utilizei o Mês e ano no formato MMAAAA (exemplo: 022024 para fevereiro de 2024))
 
 5️⃣ O programa moverá/copiará os arquivos conforme a condição filtrada.
 
-#📑 Exemplo de Uso
+# 📑 Exemplo de Uso
 📊 Planilha de entrada (clientes.xlsx)
 A (Cliente)	B (Status)
 1001	Aprovado
@@ -59,6 +52,12 @@ Coluna do número do cliente: A
 Coluna da condição: B
 
 Condição desejada: "Aprovado"
+
+Caminho da pasta de origem: C:\...
+
+Caminho da pasta de destino: C:\...
+
+Digite o nome da pasta em que os arquivos devem ser salvos, no meu caso mês e ano no formato MMAAAA:
 
 📂 O script moverá as pastas correspondentes aos clientes 1001 e 1003 para o diretório de destino, criando uma subpasta no formato Cliente-MMAAAA.
 
