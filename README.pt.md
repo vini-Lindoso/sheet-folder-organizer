@@ -2,20 +2,20 @@
 Organizador de Arquivos com Planilha Excel
 Este projeto automatiza a organização de arquivos e pastas com base nos dados de uma planilha do Excel. Ele verifica uma condição específica e move/copía as pastas correspondentes para um diretório de destino, organizando-as conforme um padrão definido.
 
-#🚀 Funcionalidades
+# 🚀 Funcionalidades
 ✅ Lê uma planilha Excel (.xlsx) e identifica clientes com base em uma condição definida pelo usuário.
 ✅ Verifica a existência das pastas dos clientes no diretório de origem.
 ✅ Copia os arquivos das pastas encontradas para um diretório de destino, estruturando-os com base em mês e ano.
 ✅ Gera relatórios (.txt) listando os clientes transferidos e aqueles cuja pasta não foi encontrada.
 
-#📦 Tecnologias Utilizadas
+📦 Tecnologias Utilizadas
 Python 🐍
 
 Pandas 📊 (para manipulação de planilhas Excel)
 
 OS & Shutil 📂 (para manipulação de arquivos e diretórios)
 
-#⚙️ Como Usar
+⚙️ Como Usar
 1️⃣ Baixe ou clone o repositório:
 
 bash
